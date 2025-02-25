@@ -11,7 +11,7 @@
     "storage"
   ],
   "content_security_policy": {
-    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://newsdata.io https://fonts.gstatic.com; object-src 'self'; img-src 'self' https: data:; default-src 'self'"
+    "extension_pages": "script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://newsdata.io https://fonts.gstatic.com; object-src 'self'; img-src 'self' https: data:; default-src 'self'"
   },
   "web_accessible_resources": [{
     "resources": ["*.js", "*.js.map", "canvaskit/*", "assets/*", "icons/*", "flutter.js", "flutter_bootstrap.js"],

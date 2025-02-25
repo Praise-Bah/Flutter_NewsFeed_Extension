@@ -7,7 +7,8 @@ window.addEventListener('load', function(ev) {
       loading.textContent = "Initializing engine...";
       let appRunner = await engineInitializer.initializeEngine({
         hostElement: targetEl,
-        assetBase: './'
+        assetBase: './',
+        renderer: 'html'
       });
       loading.textContent = "Running app...";
       await appRunner.runApp();
